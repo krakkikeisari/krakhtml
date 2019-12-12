@@ -1,0 +1,82 @@
+body {
+
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+}
+
+ #scene {
+
+    height: 1080px;
+  width: 1920px;
+
+
+ position: absolute;
+ top: 20px;
+ left: 175px;
+ text-shadow: 1px 1px black;
+ color: lime;
+
+ }
+
+
+ a {
+
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+
+    text-decoration: underline;
+    color: lime;
+}
+
+#joo{
+
+    position: absolute;
+    pointer-events:none;
+}
+
+#kuvamust{
+
+    position:absolute;
+    left: 170px;
+    border: lime solid;
+    
+}
+
+#infobox{
+
+    position: absolute;
+    left: 700px;
+
+    font-size: 24px;
+
+}
+
+#credit {
+
+    position: absolute; 
+    left: 890px;
+    top: -7px;
+
+    color: rgb(255, 255, 255, .3);
+}
+
+
+#kaikki {
+    align-content: center;    
+
+}
+
+
+
+#form {
+    position: fixed;
+    top: 750px;
+    left: 175px;
+    
+    font-size: 18px;
+}
